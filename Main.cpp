@@ -3,230 +3,139 @@
 
 int main(void)
 {
-
-
-	if (dairy.isempty() == true)
-	{	
-		if (produce.isempty() == true)
-		{
-			if (dry.isempty() == true)
-			{
-				if (protien.isempty() == true)
-				{
-					//no ingrdients where entered
-					printf("all ingredient lists were empty");
-				}
-			}
-			if (protien.isempty() == true)
-			{
-				if (dry.isempty() == true)
-				{
-					printf("all ingredient lists were empty");
-				}
-			}
-		}
-		if (dry.isempty() == true)
-		{
-			if (produce.isempty() == true)
-			{
-				if (protien.isempty() == true)
-				{
-					printf("all ingredient lists were empty");
-				}
-			}
-			if (protien.isempty() == true)
-			{
-				if (produce.isempty() == true)
-				{
-					printf("all ingredient lists were empty");
-				}
-			}
-		}
-		if (protien.isempty() == true)
-		{
-			if (produce.isempty() == true)
-			{
-				if (dry.isempty() == true)
-				{
-					printf("all ingredient lists were empty");
-				}
-			}
-			if (dry.isempty() == true)
-			{
-				if (produce.isempty() == true)
-				{
-					printf("all ingredient lists were empty");
-				}
-			}
-		}
-	}
-
-	if (produce.isempty() == true)
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	//////////////////////////////DAIRY
+	if (dairy.string == "milk")
 	{
-		if (dairy.isempty() == true)
+		if (dry.string == "cereal")
 		{
-			if (protein.isempty() == true)
-			{
-				if (dry.isempty() == true)
-				{
-					printf("all ingredient lists were empty");
-				}
-			}
-			if (dry.isempty() == true)
-			{
-				if (protein.isempty() == true)
-				{
-					printf("all ingredient lists were empty");
-				}
-			}
+			printf("recipe: make cereal with milk in a bowl\n");
+			return 0;
 		}
-		if (protein.isempty() == true)
+		if (produce.isempty() == true, protein.isempty() == true, dry.isempty() == true)
 		{
-			if (dry.isempty() == true)
-			{
-				if (dairy.isempty() == true)
-				{
-					printf("all ingredient lists were empty");
-				}
-			}
-			if (dairy.isempty() == true)
-			{
-				if (dry.isempty() == true)
-				{
-					printf("all ingredient lists were empty");
-				}
-			}
+			printf("just milk? dang hope you have a glass");
+			return 0;
 		}
-		if (dry.isempty() == true)
-		{
-			if (dairy.isempty() == true)
-			{
-				if (protien.isempty() == true)
-				{
-					printf("all ingredient lists were empty");
-				}
-			}
-			if (protien.isempty() == true)
-			{
-				if (dairy.isempty() == true)
-				{
-					printf("all ingredient lists were empty");
-				}
-			}
-		}
+		printf("a glass of milk");
 	}
-
-	if (dry.isempty() == true)
+	if (dairy.string == "cheese")
 	{
-		if (dairy.isempty() == true)
+		if (dry.string == "bread")
 		{
-			if (produce.isempty() == true)
+			if (protein.string == "lunchmeat")
 			{
-				if (protien.isempty() == true)
+				if (produce.string == "letuce" || produce.string == "tomato")
 				{
-					printf("all ingredient lists were empty");
+					printf("recipe: a basic sandwich with lunchmeant\nrecommend: tomato and/or letuce\n");
 				}
-			}
-			if (protien.isempty() == true)
-			{
-				if (produce.isempty() == true)
-				{
-					printf("all ingredient lists were empty");
-				}
+				printf("meat and cheese samwich");
 			}
 		}
-		if (produce.isempty() == true)
+		if (dry.sring == "buns")
 		{
-			if (dairy.isempty() == true)
-			{
-				if (protien.isempty() == true)
-				{
-					printf("all ingredient lists were empty");
-				}
-
-			}
-			if (protien.isempty() == true)
-			{
-				if (dairy.isempty() == true)
-				{
-					printf("all ingredient lists were empty");
-				}
-			}
-		}
-		if (protien.isempty() == true)
-		{
-			if (dairy.isempty() == true)
-			{
-				if (produce.isempty() == true)
-				{
-					printf("all ingredient lists were empty");
-				}
-			}
-			if (produce.isempty() == true)
-			{
-				if (dairy.isempty() == true)
-				{
-					printf("all ingredient lists were empty");
-				}
-			}
+			printf("grilled with BUNS!!!");
 		}
 	}
 
-	if (protien.isempty() == true)
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////PROTIEN
+	if (protein.string == "bacon")
 	{
-		if (dairy.isempty() == true)
+		if (dry.string == "bread")
 		{
-			if (produce.isempty() == true)
+			if (produce.string == "letuce" && produce.string == "tomato")
 			{
-				if (dry.isempty() == true)
-				{
-					printf("all ingredient lists were empty");
-				}
-			}
-			if (dry.isempty() == true)
-			{
-				if (produce.isempty() == true)
-				{
-					printf("all ingredient lists were empty");
-				}
-			}
-		}
-		if (produce.isempty() == true)
-		{
-			if (dairy.isempty() == true)
-			{
-				if (dry.isempty() == true)
-				{
-					printf("all ingredient lists were empty");
-				}
-			}
-			if (dry.isempty() == true)
-			{
-				if (dairy.isempty() == true)
-				{
-					printf("all ingredient lists were empty");
-				}
-			}
-		}
-		if (dry.isempty() == true)
-		{
-			if (dairy.isempty() == true)
-			{
-				if (produce.isempty() == true)
-				{
-					printf("all ingredient lists were empty");
-				}
-			}
-			if (produce.isempty() == true)
-			{
-				if (dairy.isempty() == true)
-				{
-					printf("all ingredient lists were empty");
-				}
+				printf("recipe: a BLT(bacon, lettuce & tomato)\nrecommend: any sauce like mayo or musturd\n");
 			}
 		}
 	}
+	if (protein.string == "chicken")
+	{
+		if (dairy.string == "butter" && dry.string == "rice")
+		{
+			printf("recipe:buttered chicken & rice\n");
+		}
+		if (dairy.string == "butter" && dry.string == "noodles")
+		{
+			printf("recipe:buttered chicken & noodles\n");
+		}
+		if (dry.string == "buns")
+		{
+			printf("recipe: a chicken burger\n recommend: some sauce like musturd or similar to that");
+		}
+		ifif(dairy.string == "butter" && (produce.string == "onions" || produce.string == "mushrooms" || produce.string == "carrots"))
+		{
+			printf("recipe:sauteed chicken with veggies\n");
+		}
+	}
+	if (protein.string == "beans")
+	{
+		printf("baked beans\n")
+	}
+	if (protein.string == "fish")
+	{
+		if (dairy.string == "butter")
+		{
+			printf("recipe: sauteed fish\n");
+			if (produce.string == "mushrooms")
+			{
+				printf("recipe: sauteed fish with mushrooms\n");
+			}
+		}
+	}
+	if (protein.string == "pork")
+	{
+		printf("pork ribs");
+	}
+	if (protein.string == "tofu")
+	{
+		if (dry.string == "noodles")
+		{
+			printf("recipe: noodles with tofu\n");
+		}
+	}
+	if (protein.string == "beef")
+	{
+		if(dry.string == "buns")
+		{
+			printf("recipe: hamburger\n");
+		}
+		if (dry.string == "buns" && dairy.string == "cheese")
+		{
+			printf("recipe: american cheese burger\n");
+		}
+		if (dry.string == "buns" && dairy.string == "cheese" && (produce.string == "tomato" || produce.string == "onions" || produce.string == "lettuce"))
+		{
+			printf("recipe: american cheese burger with vegie toppings(mushrooms and/or onions)\n");
+		}
+		if (dairy.string == "hearvy cream" && dry.string == "noodles")
+		{
+			printf("recipe: beef stroginof\n");
+		}
+		if (produce.string == "green beans" || produce.string == "carrots" || produce.string == "potatos")
+		{
+			printf("beef stake with vegies on the side\n");
+		}
+		printf("beef stake\n");
+		printf("beef ribs");
+	}
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	//////////////////////DRY
+	if (dry.string == "noodles")
+	{
+		printf("just noodles");
+		if (protein.string == "chicken")
+		{
+			printf("chicken & noodles\n");
 
+		}
+		
+	}
+	if (dry.string == "nuts")
+	{
+		printf("just nuts\n");
+	}
 
 	return 0;
 }
