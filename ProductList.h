@@ -9,7 +9,7 @@ public:
     Node() {
 
         s = "0",
-        next = nullptr;
+            next = nullptr;
     }
     ~Node() {
 
@@ -51,13 +51,15 @@ public:
 
             if (temp->getString() == s) {
                 return true;
+                //temp = temp->getNext();
             }
+            temp = temp->getNext();
         }
         return false;
     }
     void populate(string s) {
 
-        Node *n = new Node();
+        Node* n = new Node();
         n->setString(s);
         if (root == nullptr) {
             root = n;
